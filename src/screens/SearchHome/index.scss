@@ -1,0 +1,57 @@
+.search-page {
+    color: #3d41bed4;
+    .nav-tabs {
+        width: 70%;
+        margin: auto;
+        border-bottom-color: #3d41bed4;;
+        .nav-link {
+            color: #3d41bed4 !important;
+        }
+        .active {
+            border-top: 1px solid #3d41bed4;
+            border-left: 1px solid #3d41be98;
+            border-right: 1px solid #3d41be77;
+        }
+    }
+    .tab-content {
+        width: 70%;
+        margin: auto;
+        padding: 0px 15px;
+        .no-data {
+            color: #3d41bed4;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .search-user {
+            .card-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                width: 49%;
+                padding: 15px;
+                color: #3d41bed4;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                border-radius: 10px;
+                .search-user-info {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 100%;
+                        cursor: pointer;
+                    }
+                    .name-user:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .card {
+            width: 33%;
+        }
+    }
+}

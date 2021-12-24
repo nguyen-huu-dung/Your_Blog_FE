@@ -1,0 +1,68 @@
+.home {
+    width: 60%;
+    margin: auto;
+    min-width: 600px;
+    color: #3d41bed4;
+
+    .your-forum-blog-btn {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -200px;
+        padding: 5px 10px;
+        border: 1px solid #3d41bed4;
+        border-radius: 5px;
+        color: #3d41bed4;
+        background-color: white;
+        &:hover {
+            color: white;
+            background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+        }
+    }
+
+    .upload-blog {
+        display: flex;
+        justify-content: space-between;
+        img {
+            border-radius: 100%;
+        }
+
+        div {
+            width: 100%;
+            input {
+                background-color: rgb(241, 241, 241);
+                width: 100%;
+                height: 45px;
+                border-radius: 100px;
+                box-shadow: none;
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(214, 214, 214);
+                }
+            }
+        }
+    }
+    .chat-global-btn {
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+        }
+    }
+}
+
+.box-border {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}

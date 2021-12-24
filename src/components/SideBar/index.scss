@@ -1,0 +1,53 @@
+.left-menu {
+    background-color: #f3f3f3; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    top: 60px;
+    height: calc(100% - 60px);
+    z-index: 3;
+    padding: 10px;
+    font-size: 20px;
+    li{
+        a {
+            color: #3d41bed4 !important; 
+            margin-top: 10px;
+            border-radius: 5px;
+            display: flex;
+            white-space: nowrap;
+            text-overflow: clip;
+            overflow: hidden;
+            height: 50px;
+            align-items: center;
+            i {
+                width: 40px;
+                height: 25px;
+                text-align: center;
+            }
+        }
+        a:hover, .active {
+            background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+            color: white !important;
+        }
+    }
+}
+
+
+
+.isOpenSideBar {
+    width: 250px;
+    transition: width 0.5s;
+}
+
+.isCloseSideBar {
+    width: 80px;
+    transition: width 0.5s;
+}
+
+.isShow {
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.isHide {   
+    width: 55px;
+    transition: width 0.5s;
+}

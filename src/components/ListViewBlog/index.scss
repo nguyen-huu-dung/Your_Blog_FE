@@ -1,0 +1,17 @@
+.list-view-blog {
+    display: flex;
+    color: #3d41bed4;
+    flex-wrap: wrap;
+    .card {
+        position: static;
+        width: 24%;
+        margin-right: 1%;
+        cursor: pointer;
+        .card-text {
+            font-size: 14px;
+        }
+        img {
+            height: 150px;
+        }
+    }
+}

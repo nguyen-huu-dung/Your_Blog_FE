@@ -1,0 +1,56 @@
+.register {
+    min-height: 100vh;
+    background-image: linear-gradient(#fefdff9e, #3d41bed4);
+    .left-page{
+        text-align: center;
+        .text-format-head {
+            font-size: 18vh;
+            margin-top: -15px;
+            margin-bottom: 0;
+            line-height: 1.5;
+        }
+
+        .text-format {
+            margin-top: -3vh;
+            font-size: 3vh;
+        }
+    }
+
+    .right-page {
+        margin-top: 30px;
+        h3 {
+            color: #3d41bed4;
+            font-size: 50px;
+        }
+        form {
+            width: 60%;
+            label {
+                color: gray;
+            }
+            input {
+                border-radius: 15px;
+                color: #3d41bed4;
+            }
+            input:focus {
+                border-color: #3d41bed4;
+                box-shadow: none;
+            }
+            button {
+                border-radius: 15px;
+                width: 100%;
+                height: 50px;
+                border: none;
+                background-color: #604bd7;
+                color: white;
+            }
+            button:hover {
+                background-color: #442bcf;
+            }
+        }
+        a {
+            :hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

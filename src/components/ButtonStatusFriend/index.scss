@@ -1,0 +1,25 @@
+.button-status-friend {
+    .dropdown-toggle {
+        font-size: 14px !important;
+        color: #3d41bed4 !important;
+        padding: 3px 10px;
+        border: 1px solid #3d41bed4;
+        border-radius: 5px;
+        background-color: white !important;
+        box-shadow: none !important;
+        &::after {
+            display: none !important;
+        }
+        &:hover {
+            color: white !important;
+            background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+        }
+    }
+    .dropdown-item {
+        font-size: 14px !important;
+        color: #3d41bed4 !important;
+        &:focus {
+            background-color: rgba(206, 206, 206, 0.863);
+        }
+    }
+}

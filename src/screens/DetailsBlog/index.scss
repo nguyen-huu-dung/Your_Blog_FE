@@ -1,0 +1,70 @@
+.view-details-blog {
+    width: 60%;
+    margin: auto;
+    color: #3d41bed4;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    .action-blog {
+        display: flex;
+        i {
+            width: 30px;
+            height: 30px;
+            font-size: 24px;
+            cursor: pointer;
+            &:hover {
+                color: purple;
+            }
+        }
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        .details-blog-info{
+            width: 60%;
+            word-break: break-all;
+            margin-right: 20px;
+            white-space: pre-line;
+            .update-blog-btn {
+                padding: 5px 10px;
+                border: 1px solid #3d41bed4;
+                border-radius: 5px;
+                color: #3d41bed4;
+                background-color: white;
+                &:hover {
+                    color: white;
+                    background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+                }
+            }
+        }
+        .image-upload {
+            img {
+                width: 320px;
+                height: 250px;
+                cursor: pointer;
+            }
+        }
+    }
+    .details-blog-description {
+        div {
+            width: 100%;
+            span {
+                background-color: white;
+                padding: 5px;
+            }
+        }
+        .ck-editor, .image {
+            position: static;
+        }
+        .ck-read-only {
+            margin: auto;
+            width: 693px;
+        }
+    }
+    .description {
+        white-space: pre-line;
+    }
+    .image-upload>input {
+        display: none;
+    }
+}

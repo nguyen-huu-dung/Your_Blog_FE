@@ -1,0 +1,40 @@
+.chat-global {
+    position: fixed;
+    width: 380px;
+    height: 500px;
+    bottom: 0;
+    right: 75px;
+    z-index: 2;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .close-chat-global {
+        float: right;
+        font-size: 24px;
+        margin-right: 15px;
+        margin-top: 15px;
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+    .chat-global-container {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .chat-room-btn {
+            padding: 5px 10px;
+            border: 1px solid #3d41bed4;
+            border-radius: 5px;
+            color: #3d41bed4;
+            background-color: white;
+            &:hover {
+                color: white;
+                background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+            }
+        }
+    }
+}

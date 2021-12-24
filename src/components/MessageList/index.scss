@@ -1,0 +1,43 @@
+.message-list {
+    padding: 10px;
+    .message-container {
+        max-width: 70%;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+    .message-content {
+        margin: 3px 0px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .receiveMessage {
+        display: flex;
+        .message-content {
+            background-color: rgb(236, 236, 236);
+        }
+    }
+    .sendMessage {
+        display: flex;
+        flex-direction: row-reverse;
+        .message-content {
+            background-color: rgb(196, 210, 255);
+        }
+    }
+    .have-new-message {
+        width: calc(100% - 20px);
+        text-align: center;
+        position: absolute;
+        bottom: 55px;
+        font-size: 14px;
+        font-style: italic;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,38 @@
+.user-info {
+    display: flex;
+    flex-direction: column;
+    color: #3d41bed4;
+    padding: 0px 30px 30px;
+    .info {
+        .details-info {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 240px;
+            height: 240px;
+            border-radius: 100%;
+            margin-right: 100px;
+        }
+        .btn-user-update {
+            padding: 5px 10px;
+            border: 1px solid #3d41bed4;
+            border-radius: 5px;
+            color: #3d41bed4;
+            background-color: white;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-image: linear-gradient(to right,#3d41bed4,#70429e9e);
+            }
+        }
+    }
+    h3 {
+        color: #3d41bed4;
+        font-size: 35px;
+    }
+
+    hr {
+        width: 600px;
+    }
+}

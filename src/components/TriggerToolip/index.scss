@@ -1,0 +1,12 @@
+.tooltip {
+    .tooltip-arrow {
+        display: none;
+    }
+    .tooltip-inner {
+        background-color: white;
+        color: #3d41bed4;
+        border: 1px solid #3d41bed4;
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
+}

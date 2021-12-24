@@ -1,0 +1,169 @@
+.forum-blog {
+    img {
+        border-radius: 100%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .content-blog-action {
+        color: gray;
+        font-size: 14px;
+        font-weight: bold;
+        &:hover {
+            font-style: italic;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .ck-read-only {
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    h4 {
+        font-weight: 750;
+    }
+
+    .blog-head {
+        .user-name {
+            &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .blog-edit {
+            list-style-type: none;
+            position: relative;
+            padding: 5px 0px;
+            margin-left: -150px;
+            li {
+                padding: 5px 10px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgba(209, 209, 209, 0.459);
+                }
+            }
+        }
+        .dropdown-toggle {
+            color: #3d41bed4;
+            padding: 0;
+            background-color: white;
+            border: none;
+            box-shadow: none !important;
+            &::after {
+                display: none !important;
+            }
+        }
+        .dropdown-item {
+            color: #3d41bed4 !important;
+            &:focus {
+                background-color: rgba(206, 206, 206, 0.863);
+            }
+        }
+    }
+    .blog-content {
+        .ck-editor, .image {
+            position: static;
+        }
+        .ck-read-only {
+            margin: auto;
+            width: 693px;
+        }
+    }
+    .action {
+        span {
+            width: 40%;
+            padding: 8px 0px;
+            border-radius: 5px;
+            &:hover {
+                cursor: pointer;
+                background-color: rgba(209, 209, 209, 0.459);
+            }
+        }
+    }
+    .comment {
+        .input-upload-comment, .input-edit-comment {
+            width: 92%;
+            textarea {
+                width: 94%;
+                border-radius: 18px;
+                height: 35px;
+                &:focus {
+                    border-color: #3d41bed4;
+                    box-shadow: none;
+                }
+            }
+        }
+        .input-edit-comment {
+            width: 100%;
+            textarea {
+                width: 95%;
+            }
+        }
+        .upload-comment, .input-edit-comment {
+            button {
+                background-color: white;
+                border: none;
+            }
+            i {
+                font-size: 20px;
+                color: #3d41bed4;
+                &:hover{
+                    cursor: pointer;
+                    color: #2126ade1;
+                }
+            }
+        }
+        .comment-content {
+            .content-comment {
+                width: 100%;
+            }
+            .comment-content-info {
+                padding: 10px;
+                display: inline-block;
+                background-color: rgba(231, 231, 231, 0.678);
+                border-radius: 10px;
+            }
+            .edit-comment {
+                display: block;
+                width: 100%;
+            }
+            .action-comment {
+                font-weight: bold;
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+            .action-comment-disabled {
+                &:hover {
+                    cursor: not-allowed;
+                }
+            }
+        }
+        .disabled {
+            cursor: not-allowed !important;
+            opacity: 0.8;
+        }
+    }
+    i:hover {
+        cursor: pointer;
+    }
+}
+
+.list-like-user {
+    img {
+        border-radius: 100%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .user-name {
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

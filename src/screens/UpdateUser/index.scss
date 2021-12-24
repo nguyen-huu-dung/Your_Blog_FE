@@ -1,0 +1,54 @@
+.update-user-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+        color: #3d41bed4;
+        font-size: 50px;
+    }
+    .update-user {
+        width: 100%;
+        justify-content: center;
+        .image-upload {
+            margin-right: 100px;
+            text-align: center;
+            height: 250px;
+            img {
+                width: 250px;
+                height: 250px;
+                border-radius: 100%;
+                cursor: pointer;
+            }
+        }
+        form {
+            width: 400px;
+            label {
+                color: gray;
+                margin-bottom: 3px;
+            }
+            input {
+                height: 50px;
+                border-radius: 15px;
+                color: #3d41bed4;
+            }
+            input:focus {
+                border-color: #3d41bed4;
+                box-shadow: none;
+            }
+            button {
+                border-radius: 15px;
+                width: 100%;
+                height: 50px;
+                border: none;
+                background-color: #604bd7;
+                color: white;
+            }
+            button:hover {
+                background-color: #442bcf;
+            }
+        }
+    }
+    .image-upload>input {
+        display: none;
+    }
+}

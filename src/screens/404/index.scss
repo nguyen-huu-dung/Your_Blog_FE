@@ -1,0 +1,47 @@
+.error_404_page {
+    height: 100%;
+    width: 100%;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    background-color: rgba(224, 217, 255, 0.486);
+  
+    h1 {
+      font-size: 30vh;
+      margin: -25vh 0 -5vh 0;
+    }
+
+    button {
+        background-color: rgba(199, 123, 218, 0.774);
+        border: none;
+    }
+}
+  
+@media (max-width: 767px) {
+
+    .error_404_page h1 {
+        font-size: 32vw;
+        
+        + p {
+        font-size: 8vw;
+        line-height: 10vw;
+        max-width: 70vw;
+        }
+    }
+}
+
+@keyframes animateTextBackground {
+    0% {
+        background-position: 0 0;
+    }
+    25% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

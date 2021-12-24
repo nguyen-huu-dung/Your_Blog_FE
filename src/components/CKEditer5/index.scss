@@ -1,0 +1,24 @@
+.ck-focused {
+    border-color: #3d41bed4 !important;
+}
+
+.ck-content {
+    min-height: 100px;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    img {
+        border-radius: 0;
+        &:hover {
+            cursor: auto;
+        }
+    }
+}
+
+.ck-read-only {
+    min-height: auto !important;
+    border-color: #3d41be69 !important;
+    border-radius: 5px !important;
+}
