@@ -130,7 +130,7 @@ const DetailsBlog = () => {
             <div className="mt-5 p-4">
                 <div className="title">
                     <div className="details-blog-info">
-                        <h3>{blog?.title}</h3>
+                        <h3 className='title-blog'>{blog?.title}</h3>
                         <span className="fs-6 fst-italic">{blog?.status === 'public' ? "Công khai" : blog?.status === 'friend' ? "Bạn bè" : "Riêng tư"}</span><br/>
                         <span>Tác giả: {blog?.user?.name}</span><br/>
                         <span>Ngày đăng: {changeTime(blog?.created)}</span><br/>

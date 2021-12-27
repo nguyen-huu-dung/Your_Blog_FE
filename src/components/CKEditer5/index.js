@@ -7,7 +7,7 @@ const toolbarConfig = {
     'bold', 'italic', 'link', '|',
     'bulletedList', 'numberedList', '|',
     'insertTable', 'tableColumn', 'tableRow', 'mergeTableCells', '|',
-    'uploadImage', 'blockQuote', '|',
+    'uploadImage', 'mediaEmbed', 'blockQuote', '|',
     'undo', 'redo'],
     'forum-blog': ['italic', 'blockQuote', '|', 'bulletedList', 'numberedList', '|', 'link', 'uploadImage', '|', 'undo', 'redo']
 }
